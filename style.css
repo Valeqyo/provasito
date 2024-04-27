@@ -1,0 +1,22 @@
+body{
+    background-color: #ebebeb;
+    font-family: Arial;
+}
+
+p{color: black; font-size: 16px;}
+h1,h2{color: #333}
+
+.evi{color: #000}
+.a{color: brown;}
+
+header{background: #fff; padding: 15px 15px 5px 15px;}
+a{text-decoration: none; color: #15c2a2;}
+
+.logo{text-align: center; width: 100%; display: block; font-size: 20px;}
+
+#menu-principale{text-align: center;}
+#menu-principale li{ display: inline;}
+#menu-principale li a{margin: 10px;}
+
+footer{ background-color: #333; padding: 5px 20px 20px 20px;}
+footer p{color: #fff;}
