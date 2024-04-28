@@ -1,3 +1,7 @@
+*{box-sizing: border-box;}
+
+body,html{padding: 0; margin: 0;}
+
 body{
     background-color: #ebebeb;
     font-family: Arial;
@@ -8,8 +12,14 @@ h1,h2{color: #333}
 
 .evi{color: #000}
 .a{color: brown;}
+.cont{padding: 12px;}
 
-header{background: #fff; padding: 15px 15px 5px 15px;}
+header{
+        background: #fff; 
+        padding: 18px 15px 5px 15px;
+        width: 100%;
+}
+
 a{text-decoration: none; color: #15c2a2;}
 
 .logo{text-align: center; width: 100%; display: block; font-size: 20px;}
@@ -18,11 +28,13 @@ a{text-decoration: none; color: #15c2a2;}
 #menu-principale li{ display: inline;}
 #menu-principale li a{margin: 10px;}
 
-footer{ background-color: #333; padding: 5px 20px 20px 20px;}
-footer p{color: #fff;}
-
 .img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%; 
+    height: auto;
 }
+
+footer{ background-color: #333; padding: 5px 20px 20px 20px;}
+footer p{color: #fff;}
