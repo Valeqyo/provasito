@@ -22,7 +22,7 @@ header{
 
 a{text-decoration: none; color: #15c2a2;}
 
-.logo{text-align: center; width: 100%; display: block; font-size: 20px;}
+.logo{text-align: center; width: 100%; display: block; font-size: 25px;}
 
 #menu-principale{text-align: center;}
 #menu-principale li{ display: inline;}
@@ -34,6 +34,30 @@ a{text-decoration: none; color: #15c2a2;}
     margin-right: auto;
     width: 50%; 
     height: auto;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-33{
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+@media (max-width: 1023px) {
+    .col-33{
+        width: 100%;
+    }
+
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%; 
+        height: auto;
+    }
 }
 
 footer{ background-color: #333; padding: 5px 20px 20px 20px;}
